@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:ID;datatype:INTEGER,name:选手完美名称;datatype:LONGCHAR,name:选手Steam64位ID;datatype:LONGCHAR,name:选手完美段位;datatype:LONGCHAR,name:选手QQ;datatype:LONGCHAR,name:选手备用手机号;datatype:LONGCHAR,name:选手学校;datatype:LONGCHAR,name:是否填写承诺书;datatype:LONGCHAR" />
+</info>

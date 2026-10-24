@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>张家港市高校CS联赛 - 参赛入口</title>
+<style>
+  :root{ --ink:#1b1b1b; --main:#12305e; --line:#c9d4e4; --soft:#f4f7fb; }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; padding:60px 16px; background:#eceff5; color:var(--ink);
+    font-family:'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;
+    font-size:15px; line-height:1.9; -webkit-font-smoothing:antialiased;
+  }
+  .paper{
+    position:relative; max-width:520px; margin:0 auto; background:#fff;
+    padding:56px 48px 48px; border-radius:4px;
+    box-shadow:0 10px 34px rgba(20,45,90,.13);
+    text-align:center;
+  }
+  .paper::before{
+    content:""; position:absolute; top:0; left:0; right:0; height:6px;
+    background:linear-gradient(90deg,#12305e,#2f6fc4 55%,#57b0e8);
+    border-radius:4px 4px 0 0;
+  }
+  .logo-en{
+    font-size:13px; color:#5b6779; letter-spacing:3px; margin-bottom:18px;
+  }
+  h1{
+    font-size:26px; line-height:1.5; letter-spacing:2px;
+    color:var(--main); font-weight:700; margin:0 0 10px;
+  }
+  .subtitle{
+    font-size:13px; letter-spacing:6px; color:#8b98ad;
+    margin:0 0 40px;
+  }
+  .nav-group{
+    display:flex; flex-direction:column; gap:16px;
+    margin-bottom:32px;
+  }
+  .nav-btn{
+    display:block; width:100%; padding:14px 20px;
+    background:var(--main); color:#fff; text-decoration:none;
+    border-radius:6px; font-size:16px; letter-spacing:2px; font-weight:500;
+    transition:background .2s ease;
+  }
+  .nav-btn:hover{
+    background:#1b4b8f;
+  }
+  .nav-btn.secondary{
+    background:var(--soft); color:var(--main); border:1px solid var(--line);
+  }
+  .nav-btn.secondary:hover{
+    background:#e8eef7;
+  }
+  .tip{
+    font-size:13px; color:#6b788c; line-height:1.8;
+    padding-top:20px; border-top:1px solid var(--line);
+  }
+  .admin-footer{
+    margin-top:28px; text-align:right;
+  }
+  .admin-link{
+    display:inline-block; padding:9px 18px;
+    background:#2c3e50; color:#fff; text-decoration:none;
+    border-radius:6px; font-size:14px; letter-spacing:1px;
+    transition:background .2s ease;
+  }
+  .admin-link:hover{
+    background:#1f2e3d;
+  }
+  @media (max-width:480px){
+    body{padding:30px 12px;}
+    .paper{padding:40px 24px 32px;}
+    h1{font-size:20px; letter-spacing:1px;}
+    .subtitle{letter-spacing:4px; margin-bottom:30px;}
+    .nav-btn{font-size:15px; padding:12px 16px;}
+    .admin-footer{text-align:center;}
+  }
+</style>
+</head>
+<body>
+<div class="paper">
+  <div class="logo-en">ZJG COLLEGE CS LEAGUE</div>
+  <h1>张家港市高校 CS 联赛</h1>
+  <p class="subtitle">参赛入口导航</p>
+  <div class="nav-group">
+    <a href="index.asp" class="nav-btn">选手个人信息填报表</a>
+    <a href="cns.asp" class="nav-btn secondary">公平比赛承诺书</a>
+  </div>
+  <p class="tip">
+    请依次完成信息填报与承诺书签署<br>
+    提交前请确认所填内容真实有效
+  </p>
+
+  <div class="admin-footer">
+    <a href="back.asp" class="admin-link">管理员后台</a>
+  </div>
+</div>
+</body>
+</html>

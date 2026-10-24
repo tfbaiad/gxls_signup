@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tips - 提交成功</title>
+<style>
+  :root{ --ink:#1b1b1b; --main:#12305e; --line:#c9d4e4; --soft:#f4f7fb; }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; padding:60px 16px; background:#eceff5; color:var(--ink);
+    font-family:'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;
+    font-size:15px; line-height:1.9; -webkit-font-smoothing:antialiased;
+  }
+  .paper{
+    position:relative; max-width:520px; margin:0 auto; background:#fff;
+    padding:56px 48px 48px; border-radius:4px;
+    box-shadow:0 10px 34px rgba(20,45,90,.13);
+    text-align:center;
+  }
+  .paper::before{
+    content:""; position:absolute; top:0; left:0; right:0; height:6px;
+    background:linear-gradient(90deg,#12305e,#2f6fc4 55%,#57b0e8);
+    border-radius:4px 4px 0 0;
+  }
+  h1{
+    font-size:26px; line-height:1.5; letter-spacing:2px;
+    color:var(--main); font-weight:700; margin:0 0 10px;
+  }
+  .success-icon{
+    font-size:50px; color:#23856d; margin-bottom:16px;
+  }
+  .tip-text{
+    font-size:15px; color:#444; margin-bottom:32px;
+  }
+  .back-btn{
+    display:inline-block; padding:14px 32px;
+    background:var(--main); color:#fff; text-decoration:none;
+    border-radius:6px; font-size:16px; letter-spacing:2px; font-weight:500;
+    transition:background .2s ease;
+  }
+  .back-btn:hover{
+    background:#1b4b8f;
+  }
+  @media (max-width:480px){
+    body{padding:30px 12px;}
+    .paper{padding:40px 24px 32px;}
+    h1{font-size:20px;}
+  }
+</style>
+</head>
+<body>
+<div class="paper">
+  <div class="success-icon">✓</div>
+  <h1>提交成功</h1>
+  <p class="tip-text">您的信息已保存，现在可以安全关闭此页面</p>
+  <a href="first.html" class="back-btn">回到导航界面</a>
+</div>
+</body>
+</html>
